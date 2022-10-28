@@ -1,0 +1,17 @@
+/* Portfolio filter */
+.btn:hover,
+.btn:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+.btn.current{
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+
+/* Portfolio image */
+.portfolio-item{
+    color: var(--title-text-color);
+}
