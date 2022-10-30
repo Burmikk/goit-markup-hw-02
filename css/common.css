@@ -10,22 +10,21 @@
     --title-text-color:#757575;
     --accent-color:#2196F3;
     --primary-white-color:#ffffff;
+    --primary-bg-color:#ffffff;
 
 }
 body {
-    background-color: #ffffff;
+    background-color: var(--primary-bg-color);
     color: var(--primary-text-color);
 }
 
-a{
-    text-decoration: none;
+.btn{
+    cursor: pointer;
 }
-ul{
-    list-style-type: none;
-}
+
 /* Header */
 .header{
-    background-color: #ffffff;
+    background-color: var(--primary-bg-color);
 }
 /* Site nav */
 
@@ -64,10 +63,17 @@ ul{
 .logo-whitename{
     color: var(--primary-white-color);
 }
-.address{
+
+.footer .link{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.address.link{
     color:var(--primary-white-color);
 }
 
-.footer-contact{
-    color: rgba(255, 255, 255, 0.6);
+.footer .link:hover,
+.footer .link:focus{
+    color: var(--accent-color);
 }
+
