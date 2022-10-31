@@ -20,10 +20,8 @@ body {
   letter-spacing: 0.03em;
 }
 
-
-
-.link{
-    text-decoration: none;
+.link {
+  text-decoration: none;
 }
 
 /* Header */
@@ -84,8 +82,8 @@ body {
   color: var(--primary-white-color);
 }
 
-.address-list{
-    list-style: none;
+.address-list {
+  list-style: none;
 }
 
 .footer .link {
@@ -98,7 +96,6 @@ body {
 
 .address.link {
   color: var(--primary-white-color);
-  
 }
 
 .footer .link:hover,
