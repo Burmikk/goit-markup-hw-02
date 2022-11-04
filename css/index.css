@@ -42,6 +42,7 @@
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  
 }
 
 .section-list {
@@ -52,11 +53,13 @@
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
 .text {
   font-size: 14px;
-  line-height: 1.71px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 /* Section Our team */
@@ -74,9 +77,11 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .position {
   font-size: 16px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 }

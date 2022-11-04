@@ -8,7 +8,7 @@
 .btn {
   background: #f5f4fa;
 
-  font-family: 'Roboto';
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -38,4 +38,5 @@
 
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.03em;
 }
